@@ -38,11 +38,14 @@ table churn
 		annotation SummarizationSetBy = Automatic
 
 	column CustomerId
-		dataType: string
+		dataType: int64
+		formatString: 0
 		lineageTag: 7e8a03eb-59c5-4e3e-b232-016ddbec077e
 		sourceLineageTag: CustomerId
-		summarizeBy: none
+		summarizeBy: count
 		sourceColumn: CustomerId
+
+		changedProperty = DataType
 
 		annotation SummarizationSetBy = Automatic
 
@@ -134,11 +137,14 @@ table churn
 		annotation SummarizationSetBy = Automatic
 
 	column HasCrCard
-		dataType: string
+		dataType: int64
+		formatString: 0
 		lineageTag: 4e22169f-5db4-462f-bc03-161d37f04b30
 		sourceLineageTag: HasCrCard
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: HasCrCard
+
+		changedProperty = DataType
 
 		annotation SummarizationSetBy = Automatic
 

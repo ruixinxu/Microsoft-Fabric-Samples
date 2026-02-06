@@ -231,7 +231,7 @@ df_clean["NewEstSalaryScore"] = pd.qcut(df_clean['EstimatedSalary'], 10, labels 
 
 # CELL ********************
 
- import pandas as pd
+import pandas as pd
  
 def clean_data(df_clean):
     # One-hot encode columns: 'Geography', 'Gender'
