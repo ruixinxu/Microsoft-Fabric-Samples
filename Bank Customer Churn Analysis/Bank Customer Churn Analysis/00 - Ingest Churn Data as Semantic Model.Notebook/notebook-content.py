@@ -8,12 +8,12 @@
 # META   },
 # META   "dependencies": {
 # META     "lakehouse": {
-# META       "default_lakehouse": "d9e46ba2-db50-43b6-b3c0-a95889986de7",
+# META       "default_lakehouse": "91be1381-7c00-43da-8f87-20128ea48964",
 # META       "default_lakehouse_name": "BankCustomerChurnLakehouse",
-# META       "default_lakehouse_workspace_id": "f5d4f720-7eb0-4cc1-b70d-e1d912197072",
+# META       "default_lakehouse_workspace_id": "ab3a083e-da7c-4b43-afa8-deef4e1b4739",
 # META       "known_lakehouses": [
 # META         {
-# META           "id": "d9e46ba2-db50-43b6-b3c0-a95889986de7"
+# META           "id": "91be1381-7c00-43da-8f87-20128ea48964"
 # META         }
 # META       ]
 # META     }
